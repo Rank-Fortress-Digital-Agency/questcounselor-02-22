@@ -1,193 +1,477 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-        * {
-            font-family: 'Montserrat', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+      * {
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        padding: 40px 10%;
+        background: #f5f5f5;
+      }
+      .main-wrapper {
+        background: white;
+        padding: 40px;
+      }
+      section {
+        margin-bottom: 60px;
+      }
+      section.head,
+      section.youtube-embed {
+        text-align: center;
+      }
+      .button-link {
+        display: block;
+        margin: 20px 0 0 0;
+        padding: 10px 40px;
+        width: fit-content;
+        background: #114;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s transform ease-in-out;
+      }
+      .button-link:hover {
+        transform: scale(1.05);
+      }
+      h1 {
+        font-size: 34px;
+      }
+      h2 {
+        margin-bottom: 20px;
+      }
+      p {
+        text-align: justify;
+        margin-bottom: 10px;
+        line-height: 1.5rem;
+      }
+      img {
+        max-width: 100%;
+      }
+      .two-col {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+      }
+      .two-col div {
+        width: 50%;
+      }
+      @media only screen and (max-width: 900px) {
         body {
-            padding: 40px 10%;
-            background: #F5F5F5;
-        }
-        .main-wrapper {
-            background: white;
-            padding: 40px;
-        }
-        section {
-            margin-bottom: 60px;
-        }
-        section.head,
-        section.youtube-embed {
-            text-align: center;
-        }
-        .button-link {
-            display: block;
-            margin: 20px 0 0 0;
-            padding: 10px 40px;
-            width: fit-content;
-            background: #114;
-            border-radius: 5px;
-            text-decoration: none;
-            color: white;
-            transition: .3s transform ease-in-out;
-        }
-        .button-link:hover {
-            transform: scale(1.05);
-        }
-        h1 {
-            font-size: 34px;
-        }
-        h2 {
-            margin-bottom: 20px;
-        }
-        p {
-            text-align: justify;
-            margin-bottom: 10px;
-            line-height: 1.5rem;
-        }
-        img {
-            max-width: 100%;
+          padding: 0;
         }
         .two-col {
-            display: flex;
-            justify-content: space-between;
-            gap: 40px;
+          flex-direction: column;
         }
         .two-col div {
-            width: 50%;
+          width: 100%;
         }
-        @media only screen and (max-width: 900px) {
-            body {
-                padding: 0;
-            }
-            .two-col {
-                flex-direction: column;
-            }
-            .two-col div {
-                width: 100%;
-            }
-            .main-wrapper {
-                padding: 5%;
-            }
+        .main-wrapper {
+          padding: 5%;
         }
+      }
+
+      header {
+            width: 100%;
+            background-color: #114;
+            padding: 10px;
+        }
+        header ul {
+            width: 100%;
+            display: flex;
+            list-style: none;
+        }
+        header ul a {
+            text-decoration: none;
+            color: white;
+        }
+
+        header ul li {
+            padding: 15px;
+            transition: background-color 500ms ease-in-out;
+        }
+        header ul li:hover{
+            background-color: #f5f5f54d;
+        }
+
     </style>
-    <title>What To Expect From Your First Counseling Session? | Quest Counselor</title>
-</head>
-<body>
+    <title>
+      What To Expect From Your First Counseling Session? | Quest Counselor
+    </title>
+  </head>
+  <body>
+    <header>
+      <ul>
+          <li><a href="https://questcounselor.com/">Main</a></li>
+          <li><a href="https://goo.gl/maps/quVy9YKwgQW4vCM88">Maps</a></li>
+          <li><a href="./media.html">Media</a></li>
+          <li><a href="https://sites.google.com/view/counselor-moorpark-ca-quest-co/Counselor-Moorpark-CA?authuser=0">Counselor Moorpark</a></li>
+      </ul>
+    </header>
     <div class="main-wrapper">
-        <section class="head">
-            <h1>What To Expect From Your First Counseling Session?</h1>
-        </section>
+      <section class="head">
+        <h1>What To Expect From Your First Counseling Session?</h1>
+      </section>
 
-        <section>
+      <section>
+        <div style="display: flex; justify-content: center">
+          <img
+            src="https://questcounselor.com/wp-content/uploads/2022/02/couple-therapy-marriage-counseling-psychologist-counselor-therapist-relationship-consultant-giving-advice-man-woman-sitting-psychotherapy-session-famil-1024x683.jpg"
+            alt="counselor Moorpark, CA"
+          />
+        </div>
+        <br />
+        <p>
+          When you arrive for your first counseling session, you will likely be
+          greeted by the Counselor. Some counselors work in clinical settings
+          that require formal procedures or paperwork before any sessions begin.
+          Before beginning these procedures, give yourself enough time. Allow at
+          least minutes to complete all the documentation necessary before
+          sitting down with your Counselor.
+        </p>
+        <p>
+          After spending years in education, I decided to take my career in a
+          new direction. While I was having fun working with students and
+          providing them opportunities for success, something was missing in the
+          work environment. After months of searching for other positions, I
+          found one which involved what I loved to do – helping others solve
+          problems and achieve success.
+        </p>
+        <p>
+          Counseling, also known as psychological counseling or psychotherapy,
+          is a learning process to understand the relationship between one’s
+          emotions and actions. A counselor helps people solve life problems by
+          recognizing harmful behaviors and thoughts while being objective about
+          their feelings.
+        </p>
+        <p>
+          Every child eventually wants to know where they came from. The most
+          straightforward answer for most children would be that they were born
+          of two loving parents, but unfortunately, there are many variations on
+          the beginning of life. Counseling is one way anyone can sort out their
+          feelings and find closure on any challenging subject, including
+          adoption.
+        </p>
+        <p>
+          Quest Counseling Group is a professional counseling group located in
+          Moorpark, CA. We have many years of experience providing individual
+          and couples therapy to adults in the local community. Whether you are
+          struggling with anxiety, depression, or life transitions, our team has
+          the skill set necessary to help develop healthy coping skills and
+          goals for moving forward.
+        </p>
+        <a
+          class="button-link"
+          href="https://questcounselor.com/what-to-expect-from-your-first-counseling-session/"
+          >Read Post</a
+        >
+      </section>
 
-            <div style="display:flex; justify-content: center;">
-                <img src="https://questcounselor.com/wp-content/uploads/2022/02/couple-therapy-marriage-counseling-psychologist-counselor-therapist-relationship-consultant-giving-advice-man-woman-sitting-psychotherapy-session-famil-1024x683.jpg" alt="counselor Moorpark, CA">
-            </div>
-            <br>
-            <p>When you arrive for your first counseling session, you will likely be greeted by the Counselor. Some counselors work in clinical settings that require formal procedures or paperwork before any sessions begin. Before beginning these procedures, give yourself enough time. Allow at least minutes to complete all the documentation necessary before sitting down with your Counselor.</p>
-            <p>After spending years in education, I decided to take my career in a new direction. While I was having fun working with students and providing them opportunities for success, something was missing in the work environment. After months of searching for other positions, I found one which involved what I loved to do – helping others solve problems and achieve success.</p>
-            <p>Counseling, also known as psychological counseling or psychotherapy, is a learning process to understand the relationship between one’s emotions and actions. A counselor helps people solve life problems by recognizing harmful behaviors and thoughts while being objective about their feelings.</p>
-            <p>Every child eventually wants to know where they came from. The most straightforward answer for most children would be that they were born of two loving parents, but unfortunately, there are many variations on the beginning of life. Counseling is one way anyone can sort out their feelings and find closure on any challenging subject, including adoption.</p>
-            <p>Quest Counseling Group is a professional counseling group located in Moorpark, CA. We have many years of experience providing individual and couples therapy to adults in the local community. Whether you are struggling with anxiety, depression, or life transitions, our team has the skill set necessary to help develop healthy coping skills and goals for moving forward.</p>
-            <a class="button-link"
-                href="https://questcounselor.com/what-to-expect-from-your-first-counseling-session/">Read Post</a>
+      <section>
+        <iframe
+          width="100%"
+          height="600"
+          src="https://www.youtube.com/embed/m2cVn3hcXqE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
 
-        </section>
-        
-        <section>
-            <iframe width="100%" height="600" src="https://www.youtube.com/embed/m2cVn3hcXqE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
+      <section>
+        <h2 style="font-size: 28px">
+          How To Prepare For Your First Counseling Session?
+        </h2>
+        <p>
+          Everyone knows someone who has sought out counseling. Maybe it was a
+          close friend or family member, or maybe you were the one to look into
+          some counseling. If this is your first time counseling for yourself,
+          certain things can help you prepare for your first session. It’s
+          essential to know what you want to get out of counseling.
+        </p>
+        <p>
+          Counseling is a highly specialized profession, and there are various
+          levels of professional training and certifications. A counselor’s
+          level of education and certification will determine their services to
+          their clients. For example, some counselors may have more experience
+          or training in an area such as health care, whereas others might focus
+          more on mental health issues.
+        </p>
+        <p>
+          Welcome to Quest Counseling Group, focusing on addiction and substance
+          abuse counseling services. Our experienced counselors are passionate
+          about helping their clients get the most out of life. They hold
+          Master’s degrees in clinical social work, psychology, education, or
+          related fields and many years of experience providing mental health
+          therapy for people struggling with drug problems.
+        </p>
+        <p>
+          Moorpark, CA – Counseling Group has been helping people conquer their
+          issues with therapy and counseling for more than years. This therapy
+          center employs professional counselors trained to help people deal
+          with everyday living issues. The center is currently looking for a new
+          counselor.
+        </p>
+        <a class="button-link" href="https://questcounselor.com/">Visit Us</a>
+      </section>
 
-        <section>
-            <h2 style="font-size: 28px">How To Prepare For Your First Counseling Session?</h2>
-            <p>Everyone knows someone who has sought out counseling. Maybe it was a close friend or family member, or maybe you were the one to look into some counseling. If this is your first time counseling for yourself, certain things can help you prepare for your first session. It’s essential to know what you want to get out of counseling.</p>
-            <p>Counseling is a highly specialized profession, and there are various levels of professional training and certifications. A counselor’s level of education and certification will determine their services to their clients. For example, some counselors may have more experience or training in an area such as health care, whereas others might focus more on mental health issues.</p>
-            <p>Welcome to Quest Counseling Group, focusing on addiction and substance abuse counseling services. Our experienced counselors are passionate about helping their clients get the most out of life. They hold Master’s degrees in clinical social work, psychology, education, or related fields and many years of experience providing mental health therapy for people struggling with drug problems.</p>
-            <p>Moorpark, CA –   Counseling Group has been helping people conquer their issues with therapy and counseling for more than years. This therapy center employs professional counselors trained to help people deal with everyday living issues. The center is currently looking for a new counselor.</p>
-            <a class="button-link"
-                href="https://questcounselor.com/">Visit Us</a>
-        </section>
+      <section>
+        <div class="two-col">
+          <div>
+            <img
+              src="https://questcounselor.com/wp-content/uploads/2022/02/contact-1024x347.jpg"
+              alt="Counselor Moorpark, CA"
+            />
+          </div>
+          <div>
+            <h2 style="font-size: 28px">
+              What To Expect Before Your First Counseling Session?
+            </h2>
+            <p>
+              Before your first appointment with your Counselor, there are
+              certain things that you should expect. For example, it may be
+              helpful to think about what you would like to talk about in
+              session and prepare any questions you might have. It can also be
+              helpful for both of you if you come in a few minutes before the
+              scheduled time.
+            </p>
+            <p>
+              Counselor in Moorpark, CA. The Counseling Group is one of the
+              leading providers in Moorpark, with an extensive list of clients
+              that continue to return for their continued fulfillment in the
+              service they provide.
+            </p>
+          </div>
+        </div>
+        <p>
+          A counselor provides direction or advice to assist other people in
+          dealing with critical issues. As the need for mental health
+          professionals has increased, counselors have become more prominent
+          than ever before. Counseling services can help individuals avoid the
+          devastating effects of untreated emotional problems. Counselors are
+          there to provide guidance and support as you work towards becoming a
+          fulfilled and well-adjusted person.
+        </p>
+        <p>
+          Counselors in Moorpark, CA, work with individuals and families to help
+          them cope with various situations. The counselors have experience
+          working with various issues, including marital issues, depression,
+          anxiety disorders, trauma, grief counseling, and more. Who can do
+          <a
+            href="https://questcounselor.com/individual-counseling-moorpark-ca/"
+            >counseling individually</a
+          >
+          or as a family—typical sessions last from minutes to an hour.
+          Counseling sessions are usually conducted face-to-face, but phone
+          counseling is also available.
+        </p>
+      </section>
 
-        <section>
+      <section>
+        <h2 style="font-size: 28px">
+          The Importance Of Confidentiality In Counseling.
+        </h2>
+        <p>
+          Counseling sessions are an essential step in your healing process, and
+          it is critical that you feel comfortable sharing your deepest thoughts
+          and feelings with the Counselor. A therapist must keep everything
+          discussed in a session completely confidential, whether employed by
+          the school system, a private clinic, or another agency. Counseling is
+          a branch of psychology that uses many different techniques to help
+          people improve their mental health and well-being. A professional
+          therapist or counselor can be a great source of support during
+          difficult times, making finding the right one crucial. In Moorpark,
+          Counselor Joe Whitehead has been helping patients with various issues
+          for more than 20 years.
+        </p>
+        <p>
+          Counseling isn’t just for individuals anymore. There are now group
+          counseling options that allow people with similar issues to come
+          together and support one another. One such option is Quest Counseling
+          Group. Located in Moorpark, CA, the group’s purpose is to provide hope
+          and healing through mutual support.
+        </p>
+        <p>
+          A professional counselor can accurately diagnose mental illnesses and
+          treat them with psychotherapy. A credentialed therapist will also
+          assist clients with medication management if needed. Each state has
+          its own rules and regulations regarding the licensure of counselors or
+          therapists, so it’s best to research your state’s mental health laws
+          and acquire the correct forms and permissions.
+        </p>
+        <p>
+          Are you living in Moorpark, CA, and are trying to figure out how to
+          deal with some personal issues? You may want to consider getting
+          professional counseling. Counseling can be an excellent way of
+          learning new ways of coping with problems you may have and working on
+          things like anger management or substance abuse.
+        </p>
+      </section>
 
-            <div class="two-col">
-                <div>
-                    <img src="https://questcounselor.com/wp-content/uploads/2022/02/contact-1024x347.jpg" alt="Counselor Moorpark, CA">
-                </div>
-                <div>
-                    <h2 style="font-size: 28px;">What To Expect Before Your First Counseling Session?</h2>
-                    <p>Before your first appointment with your Counselor, there are certain things that you should expect. For example, it may be helpful to think about what you would like to talk about in session and prepare any questions you might have. It can also be helpful for both of you if you come in a few minutes before the scheduled time.</p>
-                    <p>Counselor in Moorpark, CA. The Counseling Group is one of the leading providers in Moorpark, with an extensive list of clients that continue to return for their continued fulfillment in the service they provide.</p>
-                </div>
-            </div>
-            <p>A counselor provides direction or advice to assist other people in dealing with critical issues. As the need for mental health professionals has increased, counselors have become more prominent than ever before. Counseling services can help individuals avoid the devastating effects of untreated emotional problems. Counselors are there to provide guidance and support as you work towards becoming a fulfilled and well-adjusted person.</p>
-            <p>Counselors in Moorpark, CA, work with individuals and families to help them cope with various situations. The counselors have experience working with various issues, including marital issues, depression, anxiety disorders, trauma, grief counseling, and more. Who can do <a href="https://questcounselor.com/individual-counseling-moorpark-ca/">counseling individually</a> or as a family—typical sessions last from minutes to an hour. Counseling sessions are usually conducted face-to-face, but phone counseling is also available.</p>
-        </section>
+      <section>
+        <div class="two-col">
+          <div>
+            <h2 style="font-size: 28px">
+              What To Do After Your First Counseling Session?
+            </h2>
+            <p>
+              The first counseling session can be stressful or intimidating, but
+              remember to do significant work. The Counselor will ask you many
+              questions to get an idea of what is going on in your life and how
+              best to help. Remember not to feel pressure to say everything
+              perfectly the first time around. If something comes up later,
+              don’t hesitate to return for more counseling!
+            </p>
+            <p>
+              The first session is also a great time to get any questions you
+              have answered. Do not feel uncomfortable asking anything.
+              Counselors are trained professionals who help you, so do not be
+              afraid to share any concerns or ask any questions about behavior,
+              treatment plans, lifestyle changes, etc.
+            </p>
+            <p>
+              The best part about living in a town is can talk to a counselor
+              face-to-face. Counselors are trained individuals who have
+              experience with people from all walks of life. They have
+              experience dealing with every ailment in humans because counseling
+              involves every facet of the human condition.
+            </p>
+            <p>
+              Counselors are not just for people with serious problems. The best
+              part is who can use counseling to take care of minor issues before
+              they become major ones. Issues like anger, stress and depression
+              tend to escalate in severity if not checked.
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://lh3.googleusercontent.com/geougc/AF1QipM9dsqDwYDeJ-zPBWuuTS3sQhC4ashY6h53v8cb=h400-no"
+              alt="Counselor Moorpark, CA"
+            />
+          </div>
+        </div>
+        <a
+          class="button-link"
+          href="https://google.com/maps/?cid=14363683063946813245"
+          >Find Us Here!</a
+        >
+      </section>
 
-        <section>
-            <h2 style="font-size: 28px">The Importance Of Confidentiality In Counseling.</h2>
-            <p>Counseling sessions are an essential step in your healing process, and it is critical that you feel comfortable sharing your deepest thoughts and feelings with the Counselor. A therapist must keep everything discussed in a session completely confidential, whether employed by the school system, a private clinic, or another agency. Counseling is a branch of psychology that uses many different techniques to help people improve their mental health and well-being. A professional therapist or counselor can be a great source of support during difficult times, making finding the right one crucial. In Moorpark, Counselor Joe Whitehead has been helping patients with various issues for more than 20 years.</p>
-            <p>Counseling isn’t just for individuals anymore. There are now group counseling options that allow people with similar issues to come together and support one another. One such option is Quest Counseling Group.  Located in Moorpark, CA, the group’s purpose is to provide hope and healing through mutual support.</p>
-            <p>A professional counselor can accurately diagnose mental illnesses and treat them with psychotherapy. A credentialed therapist will also assist clients with medication management if needed. Each state has its own rules and regulations regarding the licensure of counselors or therapists, so it’s best to research your state’s mental health laws and acquire the correct forms and permissions.</p>
-            <p>Are you living in Moorpark, CA, and are trying to figure out how to deal with some personal issues? You may want to consider getting professional counseling. Counseling can be an excellent way of learning new ways of coping with problems you may have and working on things like anger management or substance abuse.</p>
-        </section>
+      <section>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3296.5461084970907!2d-118.88093808440217!3d34.28562481284167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7560da504d81f3d!2sQuest%20Counseling%20Group!5e0!3m2!1sen!2sph!4v1647833943865!5m2!1sen!2sph"
+          width="100%"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          >Counselor%20Moorpark,%20CA</iframe
+        >
+      </section>
 
-        <section>
+      <section>
+        <h2>Things to do in Moorpark, CA</h2>
+        <iframe
+          src="https://www.tripadvisor.com/Attractions-g32741-Activities-Moorpark_California.html"
+          style="border: 0px #ffffff none"
+          name="myiFrame"
+          scrolling="no"
+          frameborder="1"
+          marginheight="0px"
+          marginwidth="0px"
+          height="400px"
+          width="100%"
+          allowfullscreen
+        ></iframe>
+      </section>
 
-            <div class="two-col">
-                <div>
-                    <h2 style="font-size: 28px">What To Do After Your First Counseling Session?</h2>
-                    <p>The first counseling session can be stressful or intimidating, but remember to do significant work. The Counselor will ask you many questions to get an idea of what is going on in your life and how best to help. Remember not to feel pressure to say everything perfectly the first time around. If something comes up later, don’t hesitate to return for more counseling!</p>
-                    <p>The first session is also a great time to get any questions you have answered. Do not feel uncomfortable asking anything. Counselors are trained professionals who help you, so do not be afraid to share any concerns or ask any questions about behavior, treatment plans, lifestyle changes, etc.</p>
-                    <p>The best part about living in a town is can talk to a counselor face-to-face. Counselors are trained individuals who have experience with people from all walks of life. They have experience dealing with every ailment in humans because counseling involves every facet of the human condition.</p>
-                    <p>Counselors are not just for people with serious problems. The best part is who can use counseling to take care of minor issues before they become major ones. Issues like anger, stress and depression tend to escalate in severity if not checked.</p>
-                </div>
-                <div>
-                    <img src="https://lh3.googleusercontent.com/geougc/AF1QipM9dsqDwYDeJ-zPBWuuTS3sQhC4ashY6h53v8cb=h400-no" alt="Counselor Moorpark, CA">
-                </div>
-            </div>
-            <a class="button-link"
-                href="https://google.com/maps/?cid=14363683063946813245">Find Us Here!</a>
-        </section>
-        
-        <section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3296.5461084970907!2d-118.88093808440217!3d34.28562481284167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7560da504d81f3d!2sQuest%20Counseling%20Group!5e0!3m2!1sen!2sph!4v1647833943865!5m2!1sen!2sph" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">Counselor%20Moorpark,%20CA</iframe>
-        </section>
+      <section>
+        <h2>Moorpark, CA News</h2>
+        <iframe
+          src="https://abc7.com/place/moorpark/"
+          style="border: 0px #ffffff none"
+          name="myiFrame"
+          scrolling="no"
+          frameborder="1"
+          marginheight="0px"
+          marginwidth="0px"
+          height="400px"
+          width="100%"
+          allowfullscreen
+        ></iframe>
+      </section>
 
-        <section>
-            <h2>Things to do in Moorpark, CA</h2>
-            <iframe src="https://www.tripadvisor.com/Attractions-g32741-Activities-Moorpark_California.html" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="100%" allowfullscreen></iframe>
-        </section>
+      <section>
+        <a
+          target="_bLank"
+          href="https://rank-fortress-digital-agency.github.io/questcounselor-02-22/"
+          >https://rank-fortress-digital-agency.github.io/questcounselor-02-22/</a
+        ><br />
+        <a
+          target="_bLank"
+          href="http://questcounselor-02-22.s3-website-ap-southeast-1.amazonaws.com/"
+          >http://questcounselor-02-22.s3-website-ap-southeast-1.amazonaws.com/</a
+        ><br />
+        <a target="_bLank" href="https://epic-lumiere-0b52a9.netlify.app/"
+          >https://epic-lumiere-0b52a9.netlify.app/</a
+        ><br />
+        <a
+          target="_bLank"
+          href="https://sites.google.com/view/counselor-moorpark-ca-quest-co/Counselor-Moorpark-CA"
+          >https://sites.google.com/view/counselor-moorpark-ca-quest-co/Counselor-Moorpark-CA</a
+        >
+      </section>
 
-        <section>
-            <h2>Moorpark, CA News</h2>
-            <iframe src="https://abc7.com/place/moorpark/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="100%" allowfullscreen></iframe>
-        </section>
+      <section>
+        <!-- WEBSITE EMBED -->
+        <iframe src="https://questcounselor.com/" style="border:0px #ffffff none;" name="" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="450" width="100%px" allowfullscreen></iframe>
 
-        <section>
-            
-            <a target="_bLank"
-                href="https://rank-fortress-digital-agency.github.io/questcounselor-02-22/">https://rank-fortress-digital-agency.github.io/questcounselor-02-22/</a><br>
-            <a target="_bLank"
-                href="http://questcounselor-02-22.s3-website-ap-southeast-1.amazonaws.com/">http://questcounselor-02-22.s3-website-ap-southeast-1.amazonaws.com/</a><br>
-            <a target="_bLank"
-                href="https://epic-lumiere-0b52a9.netlify.app/">https://epic-lumiere-0b52a9.netlify.app/</a><br>
-            <a target="_bLank"
-                href="https://sites.google.com/view/counselor-moorpark-ca-quest-co/Counselor-Moorpark-CA">https://sites.google.com/view/counselor-moorpark-ca-quest-co/Counselor-Moorpark-CA</a>
-            
+       <!-- MEDIA ROOM -->
+       <br>
+       <iframe src="./media.html" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
 
-        </section>
+       <!-- BUSINESS SITE -->
 
+       
+       <!-- PEARL TREES -->
+       <iframe src="https://www.pearltrees.com/questcounselor?embed=2&d=202203241511" width="100%" height="783" style="border:0px;" allowtransparency="true"></iframe><span style="display:block; padding-top:2px; color:#818181; font-size:13px;"><a href="https://www.pearltrees.com/questcounselor" style=" color:#818181; font-size:13px;" target="_blank">Questcounselor</a></span>
 
+       <!-- CLOUD STACK SITE -->
+       <iframe src="./index.html" width="100%" height="783" style="border:0px;" allowtransparency="true"></iframe><span style="display:block; padding-top:2px; color:#818181; font-size:13px;"><a href="https://www.pearltrees.com/questcounselor" style=" color:#818181; font-size:13px;" target="_blank">Questcounselor</a></span>
+   </section>
+
+   <aside>
+       <section>
+           <h2>Useful Links</h2>
+           <ul>
+               <li><a href="https://questcounselor.com/">Main</a></li>
+               <li><a href="https://goo.gl/maps/ZSwyLMCwKSL5twSn8">Maps</a></li>
+               <li><a href="./media.html">Media</a></li>
+               <li><a href="https://sites.google.com/view/counselor-moorpark-ca-quest-co/Counselor-Moorpark-CA?authuser=0">Counselor Moorpark</a></li>
+           </ul>
+       </section>
+
+       <section>
+           <h2>Useful Links</h2>
+           <ul>
+               <li><a href="https://www.facebook.com/Quest-Counseling-Group-110773298240105/">Facebook</a></li>
+               <li><a href="https://maps.google.com/maps?cid=14363683063946813245">Google Page</a></li>
+               <li><a href="https://www.youtube.com/channel/UCz1-0of3G2Ouf1OseztjrHA">Youtube</a></li>
+               <li><a href="http://www.pearltrees.com/questcounselor">Pearltrees</a></li>
+               <li><a href="https://calendar.google.com/calendar/u/0/embed?src=bl68d8lbfh7ovm5iaoeaf20744@group.calendar.google.com&ctz=Asia/Manila&fbclid=IwAR1MmKptDSH7DMF61CpY07iKrZ8kvwnX11eLH_3AzPIramJrUACfzyw47No">Calendar</a></li>
+               <li><a href="https://sites.google.com/view/counselor-moorpark-ca-quest-co/Counselor-Moorpark-CA?fbclid=IwAR3Om-p6MfPJCWvhZLS1eNlbbQsYYH4q4dAlsHfqhy7Iuw-zqFp4uRir6c4">Google Site</a></li>
+               <li><a href="https://questcounselinggroup.weebly.com/?fbclid=IwAR2uMjzSYpyDGC-0i8kSMnzpTLsx3ppyS9bae7YnsY4JoTX2dfl6LvYptP0">About</a></li>
+           </ul>
+       </section>
 
     </div>
-</body>
+  </body>
 </html>
